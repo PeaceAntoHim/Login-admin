@@ -68,14 +68,14 @@ function App({ Component, pageProps }) {
             </div>
 
             {/* credits */}
-            <div className="text-center mt-4">
+            {/* <div className="text-center mt-4">
                 <p>
                     <a href="https://jasonwatmore.com/post/2021/08/19/next-js-11-user-registration-and-login-tutorial-with-example-app" target="_top">Next.js 11 - User Registration and Login Tutorial with Example App</a>
                 </p>
                 <p>
                     <a href="https://jasonwatmore.com" target="_top">JasonWatmore.com</a>
                 </p>
-            </div>
+            </div> */}
         </>
     );
 }
