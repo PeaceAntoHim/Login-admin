@@ -1,12 +1,9 @@
+import * as Yup from 'yup';
+import { Link } from 'components';
 import { useRouter } from 'next/router';
 import { useForm } from 'react-hook-form';
-import { yupResolver } from '@hookform/resolvers/yup';
-import * as Yup from 'yup';
-
-import { Link } from 'components';
 import { userService, alertService } from 'services';
-
-export { AddEdit };
+import { yupResolver } from '@hookform/resolvers/yup';
 
 function AddEdit(props) {
     const user = props?.user;
@@ -101,3 +98,5 @@ function AddEdit(props) {
         </form>
     );
 }
+
+export { AddEdit };
