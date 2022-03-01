@@ -1,5 +1,6 @@
-# next-js-11-registration-login-example
+# simple-login
+Minimal setup for a login and signup working pages on Next.js (API included) MongoDB for now.
 
-Next.js 11 - User Registration and Login Example
+Full tutorial:
 
-Documentation and live demo available at https://jasonwatmore.com/post/2021/08/19/next-js-11-user-registration-and-login-tutorial-with-example-app
+[https://dev.to/mgranados/how-to-build-a-simple-login-with-nextjs-and-react-hooks-255](https://dev.to/mgranados/how-to-build-a-simple-login-with-nextjs-and-react-hooks-255)
